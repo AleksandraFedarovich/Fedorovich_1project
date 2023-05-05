@@ -1,0 +1,36 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Organic
+        link(rel="stylesheet", href="./src/style/main.css")
+        link(rel="apple-touch-icon", sizes="180x180", href="./src/favicon/android-chrome-192x192.png")
+        link(rel="icon", type="image/png", sizes="32x32", href="./src/favicon/favicon-32x32.png")
+        link(rel="icon", type="image/png", sizes="16x16" , href="./src/favicon/favicon-16x16.png")
+        link(rel="manifest", href="./src/favicon/site.webmanifest")
+    body
+        header.header
+            .container
+                .header__wrap
+                    .logo
+                        a(href="#")
+                            img(src="./img/IMAGE.png")
+                    nav.header__nav
+                        //- input(type="checkbox")
+                            button.btn.btn--burger
+                                span
+                                span
+                                span
+                        ul.menu
+                            li.menu__item
+                                a(href="#")  Home
+                                a(href="#")  About Us
+                                a(href="#")  Shop
+                                a(href="#")  Pages
+                                a(href="#")  Contact Us
+                    .header__btn
+                        button.header__btn-cart
+                            img(src="./img/cart.svg")
+                            | Cart 0

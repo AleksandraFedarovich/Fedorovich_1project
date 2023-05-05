@@ -1,0 +1,11 @@
+.header {
+  background: $white;
+  padding-top: 60px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;
+}
+.header__wrap{
+  display: flex;
+  justify-content: space-between;
+
+}
