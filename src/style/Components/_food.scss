@@ -1,0 +1,50 @@
+.food{
+background-color: #EFF6F1;
+padding: 140px 0;
+}
+.food__btn{
+display: flex;
+gap: 30px;
+}
+.food__btn-juice{
+background-image: url(../../../img/FruitJuice.png);
+background-size: cover;
+width: 460px;
+height: 580px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.food__btn button{
+width: 281px;
+height: 95px;
+background-color: #ffffff;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 35px;
+text-align: center;
+letter-spacing: 0.36px;
+color: #274C5B;
+border-radius: 25px;
+border: none;
+}
+.food__btn-org{
+    background-image: url(../../../img/organicFood.png);
+    background-size: cover;
+    width: 460px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .food__btn-cookies{
+        background-image: url(../../../img/NutsCookies.png);
+        background-size: cover;
+        width: 460px;
+        height: 580px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }

@@ -37,6 +37,10 @@ svg {
   display: block;
 }
 
+button {
+  cursor: pointer;
+}
+
 .header__btn img {
   width: 26px;
   height: 24px;
@@ -149,10 +153,85 @@ svg {
   font-size: 15px;
   line-height: 27px;
   letter-spacing: 0.36px;
-  color: #FFFFFF;
-  background-color: #274C5B;
+  color: #ffffff;
+  background-color: #274c5b;
   border: none;
   border-radius: 10px;
+}
+
+.offer__btn button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274c5b;
+  background-color: #efd372;
+  border: none;
+  height: 82px;
+  width: 267px;
+  cursor: pointer;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-right: 10px;
+}
+
+.offer__btn img {
+  width: 38px;
+  height: 38px;
+  background-color: #274C5B;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.subscribe__btn {
+  background: #274c5b;
+  border: 1px solid #274c5b;
+  border-radius: 16px;
+  color: #ffffff;
+  width: 197px;
+  height: 82px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  cursor: pointer;
+  padding-right: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.36px;
+}
+
+.subscribe__btn img {
+  width: 38px;
+  height: 38px;
+  background-color: #335b6b;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 .header {
@@ -444,9 +523,9 @@ span.natural__fruit1 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .products__card {
@@ -630,4 +709,210 @@ span.natural__fruit1 {
   text-align: center;
   letter-spacing: 0.36px;
   color: #274C5B;
+}
+
+.offer {
+  background-color: #274C5B;
+}
+
+.offer__wrap {
+  padding: 140px 0;
+}
+
+.offer__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.offer__title-txt h2 {
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+}
+
+.eco {
+  background-image: url(../../../img/Field.png);
+  background-repeat: no-repeat;
+  height: 700px;
+  padding-top: 40px;
+}
+
+.eco__content {
+  background-color: white;
+  width: 720px;
+  height: 620px;
+  border-radius: 25px;
+  padding: 40px 40px 55px 60px;
+  display: -ms-grid;
+  display: grid;
+  margin-left: 45%;
+}
+
+.eco__content h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 58px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+}
+
+.eco__content h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+}
+
+.eco__content p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: #525C60;
+}
+
+.food {
+  background-color: #EFF6F1;
+  padding: 140px 0;
+}
+
+.food__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.food__btn-juice {
+  background-image: url(../../../img/FruitJuice.png);
+  background-size: cover;
+  width: 460px;
+  height: 580px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.food__btn button {
+  width: 281px;
+  height: 95px;
+  background-color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  border-radius: 25px;
+  border: none;
+}
+
+.food__btn-org {
+  background-image: url(../../../img/organicFood.png);
+  background-size: cover;
+  width: 460px;
+  height: 580px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.food__btn-cookies {
+  background-image: url(../../../img/NutsCookies.png);
+  background-size: cover;
+  width: 460px;
+  height: 580px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subscribe__wrap {
+  padding: 100px 70px;
+  background-image: url(../../../img/Subscribe.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.subscribe__txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 60px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-right: 28%;
+}
+
+.subscribe__form input {
+  width: 350px;
+  height: 82px;
+  margin-right: 20px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 25px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.36px;
+  color: #525C60;
+  padding-left: 30px;
 }
