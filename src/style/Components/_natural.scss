@@ -1,0 +1,54 @@
+.natural {
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+.natural__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.natural__fruit {
+  display: inline-block;
+  background-image: url(../../../img/Pink.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 55px;
+  color: #ffffff;
+  width: 665px;
+  height: 378px;
+}
+.natural__veg {
+  display: inline-block;
+  background-image: url(../../../img/Peach.png);
+  align-items: center;
+  width: 665px;
+  height: 378px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 55px;
+}
+h3 {
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+}
+span.natural__fruit1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.36px;
+}
+.natural__veg h3{
+color: $olive
+}
+.natural__veg span{
+color:#274C5B;
+}

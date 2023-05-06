@@ -1,11 +1,32 @@
 .header {
   background: $white;
   padding-top: 60px;
+  margin-bottom: 25px;
   font-family: 'Open Sans', sans-serif;
   font-size: 19px;
+  font-weight: bold;
 }
-.header__wrap{
+.header__wrap {
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  cursor: pointer;
+}
+.menu__item {
+  display: inline-block;
+  color: #274c5b;
+}
+.menu__item:not(:last-child) {
+  margin-right: 40px;
+}
+.menu__item:last-child {
+  margin-left: 20px;
+}
+.header__nav a:hover {
+  color: #7eb693;
 }

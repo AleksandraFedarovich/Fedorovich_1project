@@ -1,0 +1,31 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.welcome {
+  background-image: url(../../../img/IMAGE1.png);
+  background-size: cover;
+  height: 900px;
+  display: grid;
+  align-items: center;
+}
+h3 {
+  font-family: 'Yellowtail', cursive;
+  color: $olive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+}
+.welcome__span {
+  display: block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: 0.36px;
+  color: #274c5b;
+}
