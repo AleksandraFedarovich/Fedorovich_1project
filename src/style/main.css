@@ -16,6 +16,7 @@ body {
 
 html,
 body {
+  width: 100%;
   height: 100%;
 }
 
@@ -234,6 +235,85 @@ button {
   border-radius: 50%;
 }
 
+.footer {
+  padding: 85px 0;
+}
+
+.footer__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__contacts {
+  border-right: 2px solid #EFF6F1;
+  padding-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__contacts h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: right;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  padding-bottom: 35px;
+}
+
+.footer__contacts h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  letter-spacing: 0.36px;
+  color: #525C60;
+  padding-bottom: 5px;
+}
+
+.footer__contacts span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: right;
+  letter-spacing: 0.36px;
+  color: #525C60;
+  padding-bottom: 40px;
+}
+
+.footer__center {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 50px;
+  gap: 50px;
+}
+
+.footer__center p, a {
+  display: inline-block;
+}
+
 .header {
   background: #ffffff;
   padding-top: 60px;
@@ -300,7 +380,7 @@ button {
 .welcome {
   background-image: url(../../../img/IMAGE1.png);
   background-size: cover;
-  height: 900px;
+  padding: 240px 0;
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
@@ -584,8 +664,7 @@ span.natural__fruit1 {
 .customer {
   background-image: url(../../../img/Customer.png);
   background-size: cover;
-  height: 1248px;
-  padding: 130px 0;
+  padding: 150px 0;
 }
 
 .customer__wrap {
@@ -915,4 +994,18 @@ span.natural__fruit1 {
   letter-spacing: 0.36px;
   color: #525C60;
   padding-left: 30px;
+}
+
+.map-responsive {
+  width: 100%;
+  height: 400px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.map-responsive iframe {
+  height: 100%;
+  width: 100%;
 }
